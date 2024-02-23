@@ -14,6 +14,8 @@
 		D14A27482B87D24500693523 /* PaymentSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14A27472B87D24500693523 /* PaymentSheetTests.swift */; };
 		D14A27522B87D24500693523 /* PaymentSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14A27512B87D24500693523 /* PaymentSheetUITests.swift */; };
 		D14A27542B87D24500693523 /* PaymentSheetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14A27532B87D24500693523 /* PaymentSheetUITestsLaunchTests.swift */; };
+		D197EE812B8919FA00C46284 /* Spreadsheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197EE802B8919FA00C46284 /* Spreadsheet.swift */; };
+		D197EE832B891AFF00C46284 /* SpreadsheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197EE822B891AFF00C46284 /* SpreadsheetTests.swift */; };
 		D1E808042B88BE6A002DD077 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E808032B88BE6A002DD077 /* Employee.swift */; };
 		D1E8080B2B88CEAC002DD077 /* EmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E8080A2B88CEAC002DD077 /* EmployeeTests.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		D14A274D2B87D24500693523 /* PaymentSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14A27512B87D24500693523 /* PaymentSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSheetUITests.swift; sourceTree = "<group>"; };
 		D14A27532B87D24500693523 /* PaymentSheetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSheetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D197EE802B8919FA00C46284 /* Spreadsheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spreadsheet.swift; sourceTree = "<group>"; };
+		D197EE822B891AFF00C46284 /* SpreadsheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetTests.swift; sourceTree = "<group>"; };
 		D1E808032B88BE6A002DD077 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		D1E8080A2B88CEAC002DD077 /* EmployeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E808032B88BE6A002DD077 /* Employee.swift */,
+				D197EE802B8919FA00C46284 /* Spreadsheet.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E8080A2B88CEAC002DD077 /* EmployeeTests.swift */,
+				D197EE822B891AFF00C46284 /* SpreadsheetTests.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D197EE812B8919FA00C46284 /* Spreadsheet.swift in Sources */,
 				D14A27392B87D24300693523 /* ContentView.swift in Sources */,
 				D1E808042B88BE6A002DD077 /* Employee.swift in Sources */,
 				D14A27372B87D24300693523 /* PaymentSheetApp.swift in Sources */,
@@ -305,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D197EE832B891AFF00C46284 /* SpreadsheetTests.swift in Sources */,
 				D14A27482B87D24500693523 /* PaymentSheetTests.swift in Sources */,
 				D1E8080B2B88CEAC002DD077 /* EmployeeTests.swift in Sources */,
 			);
